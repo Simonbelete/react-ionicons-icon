@@ -51,7 +51,6 @@
     "dist"
   ],
   "dependencies": {
-    "prop-types": "^15.7.2",
-    "rollup-plugin-url": "^3.0.1"
+    "prop-types": "^15.7.2"
   }
 }
