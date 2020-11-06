@@ -1,10 +1,15 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-ionicons-icon'
 import 'react-ionicons-icon/dist/index.css'
+ 
+import { Accessibility, AccessibilityOutline, AccessibilitySharp } from 'react-ionicons-icon';
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <div>
+       <Accessibility />
+       <AccessibilitySharp />
+       <AccessibilityOutline />
+      </div>
 }
 
 export default App

@@ -1,6 +1,6 @@
 {
   "name": "react-ionicons-icon",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Made with create-react-library",
   "author": "Simonbelete",
   "license": "MIT",
@@ -49,5 +49,9 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "rollup-plugin-url": "^3.0.1"
+  }
 }
