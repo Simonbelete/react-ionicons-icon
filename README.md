@@ -7,7 +7,7 @@
 
 [![NPM](https://img.shields.io/npm/v/react-ionicons-icon.svg)](https://www.npmjs.com/package/react-ionicons-icon) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-React ionicons icon is a collection of [Ionicons](ioniconlink) svg icons in react component.
+react-ionicons-icon is a collection of [Ionicons](ioniconlink) icons in react component.
 
 Generating react component from ionicons svg files, this project is based on the blog post https://emasuriano.com/blog/building-a-maintainable-icon-system-for-react-and-react-native source code of the blog can be found on https://github.com/EmaSuriano/maintainable-icon-system-react
 
@@ -28,7 +28,11 @@ npm install --save react-ionicons-icon
 ```jsx
 import React, { Component } from 'react'
 
-import { Accessibility } from 'react-ionicons-icon';
+import { 
+  Accessibility, // Filled Icon
+  AccessibilityOutline, // Outlined Icon
+  AccessibilitySharp, // Sharp Icon
+  } from 'react-ionicons-icon';
 
 import 'react-ionicons-icon/dist/index.css' // Optional, changes all outlined svg strock color
 
@@ -37,6 +41,15 @@ class Example extends Component {
     return <Accessibility />
   }
 }
+```
+
+For using other icons refer to [Ionicons](ioniconlink).
+Example:-
+
+```jsx
+<ion-icon name="battery-full"></ion-icon> // Becomes <BatteryFull />
+<ion-icon name="battery-full-outline"></ion-icon> // Becomes <BatteryFullOutline>
+<ion-icon name="battery-full-sharp"></ion-icon> // Becomes <BatteryFullSharp />
 ```
 
 ### Size
