@@ -15,7 +15,7 @@ Ioniocns description:-
 
 |Icon Library|License|Version|
 |---|---|---|
-|[Ionicons](ioniconlink)|[MIT](ioniconlicenselink)|5.2.3|
+|[Ionicons](https://ionicons.com/)|[MIT](https://github.com/ionic-team/ionicons/blob/master/LICENSE)|5.2.3|
 
 ## Install
 
@@ -43,7 +43,7 @@ class Example extends Component {
 }
 ```
 
-For using other icons refer to [Ionicons](ioniconlink).
+For using other icons refer to [Ionicons](https://ionicons.com/).
 Example:-
 
 ```jsx
